@@ -61,17 +61,17 @@ public class SearchFlights {
 		To_Place_Txtbox.sendKeys(to_location);
 		Logs.addToReport("To Location Text box is available and value entered", info);
 		
-		//Thread.sleep(3000);
+
 		cm.elementExplicitWait(driver, DepartCalendar, 3);
 		DepartCalendar.click();
-		//Thread.sleep(3000);		
+		
 		String from_date = cm.getInput("From_Date");
 		pick_depart_date(from_date);
 		Logs.addToReport("From date eneterd in Calendar", info);
 		
 		cm.elementExplicitWait(driver, ReturnCalendar, 3);
 		ReturnCalendar.click();
-		//Thread.sleep(3000);
+		
 		String to_date = cm.getInput("To_Date");
 		pick_Return_date(to_date);
 		Logs.addToReport("To date eneterd in Calendar", info);
@@ -82,7 +82,6 @@ public class SearchFlights {
 		String search_page_title = cm.getInput("Search_Page_Title");
 		cm.titleExplicitWait(driver, search_page_title, 5);
 		String title1 = driver.getTitle();
-		//Thread.sleep(200);
 		
 		if(title1.contains(search_page_title))
 			Logs.addToReport("Search Page opened", pass);	
@@ -94,8 +93,7 @@ public class SearchFlights {
 	
 	public void pick_depart_date(String DepartOnDate)
 	{
-		//List <WebElement> fromdate= driver.findElements(By.xpath("//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr/td"));
-		//System.out.println(fromdate);
+
 		for(WebElement ele: calendar_Depart_date)
 		{
 			String date = ele.getText();
@@ -109,8 +107,7 @@ public class SearchFlights {
 	
 	public void pick_Return_date(String ReturnOnDate)
 	{
-		//List <WebElement> todate= driver.findElements(By.xpath("//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr/td"));
-		//System.out.println(todate);
+
 		for(WebElement ele: calendar_Depart_date)
 		{
 			String date = ele.getText();

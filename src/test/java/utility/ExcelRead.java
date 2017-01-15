@@ -59,51 +59,5 @@ public class ExcelRead
 			//System.out.println("Value not found in HashMap");
 			return null;
 		}
-		
-		
-		
-		/*url = sh1.getRow(1).getCell(1).getStringCellValue();
-		System.out.println(url);
-		
-		First_Page_Title = sh1.getRow(2).getCell(1).getStringCellValue();
-		System.out.println(First_Page_Title);
-		
-		From_Place_name = sh1.getRow(3).getCell(1).getStringCellValue();
-		System.out.println(From_Place_name);
-		
-		To_Place_name = sh1.getRow(4).getCell(1).getStringCellValue();
-		System.out.println(To_Place_name);
-		
-		fromdate = sh1.getRow(4).getCell(1).getStringCellValue();
-		System.out.println(fromdate);
-		
-		todate = sh1.getRow(5).getCell(1).getStringCellValue();
-		System.out.println(todate);
-		
-		searchpagetitle = sh1.getRow(6).getCell(1).getStringCellValue();
-		System.out.println(searchpagetitle);
-		
-		emailid = 	sh1.getRow(7).getCell(1).getStringCellValue();
-		System.out.println(emailid);
-		
-		fname = sh1.getRow(8).getCell(1).getStringCellValue();
-		System.out.println(fname);
-		
-		lname = sh1.getRow(9).getCell(1).getStringCellValue();
-		System.out.println(lname);
-		
-		day = sh1.getRow(10).getCell(1).getStringCellValue();
-		System.out.println(day);
-		
-		month = sh1.getRow(11).getCell(1).getStringCellValue();
-		System.out.println(month);
-		
-		year = sh1.getRow(12).getCell(1).getStringCellValue();
-		System.out.println(year);
-		
-		nationality = sh1.getRow(13).getCell(1).getStringCellValue();
-		System.out.println(nationality);
-		
-		return searchpagetitle;*/
 	}
 }

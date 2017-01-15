@@ -7,7 +7,6 @@ public class Logs {
 	
 	public static void startLog(String tcname)
 	{
-		//log = new LogClass();
 		log.startReport(tcname);
 	}
 	

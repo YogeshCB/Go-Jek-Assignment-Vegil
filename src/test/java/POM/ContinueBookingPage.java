@@ -195,8 +195,6 @@ public class ContinueBookingPage
 		Logs.addToReport("Contorls enters inside enterPassengerDetails method", info);
 		
 		cm.elementExplicitWait(driver, Title, 50);
-/*		WebDriverWait wait = new WebDriverWait(driver,50);
-		wait.until(ExpectedConditions.visibilityOf(Title));*/
 		Logs.addToReport("Form to Fill user details is visible", info);
 		
 		Select titledp = new Select(Title);
@@ -232,8 +230,6 @@ public class ContinueBookingPage
 			nationality_textbox.sendKeys(nationality);
 			Logs.addToReport("Nationality value is entered", info);
 			cm.elementvisibilityExplicitWait(driver, AutoExtender, 20);
-/*			WebDriverWait autoextwait = new WebDriverWait(driver, 10);
-			autoextwait.until(ExpectedConditions.visibilityOf(AutoExtender));*/
 			AutoExtender.click();
 			Logs.addToReport("Nationality value: "+ nationality + " is entered", info);
 			System.out.println("India Value is chosen");
@@ -260,8 +256,7 @@ public class ContinueBookingPage
 		Logs.addToReport("Controls comes inside checkPaymentPageApperance Menthod", info);
 		
 		cm.elementExplicitWait(driver, creditcardheader, 100);
-/*		WebDriverWait wait = new WebDriverWait(driver, 100);
-		wait.until(ExpectedConditions.visibilityOf());*/
+		
 		String text = creditcardheader.getText();
 		if (text.contains("Enter your credit card details"))
 			Logs.addToReport("Credit Card Payment Page appeared", pass);

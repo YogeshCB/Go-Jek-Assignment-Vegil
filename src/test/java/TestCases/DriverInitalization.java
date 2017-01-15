@@ -33,7 +33,7 @@ public class DriverInitalization
 			System.setProperty("webdriver.gecko.driver", "exes/geckodriver-v10.exe");
 			driver = new FirefoxDriver();
 			driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-			//driver.manage().window().maximize();
+			driver.manage().window().maximize();
 			Logs.addToReport("Browser Initialization success", pass);
 		}
 		Logs.stopLog();

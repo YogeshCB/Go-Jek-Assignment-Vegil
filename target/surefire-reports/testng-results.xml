@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Go-Jek Assignment Execution Suite" duration-ms="42369" started-at="2017-01-14T04:12:51Z" finished-at="2017-01-14T04:13:33Z">
+    <groups>
+    </groups>
+    <test name="Go-Jek Assignment Execution Suite Test" duration-ms="42369" started-at="2017-01-14T04:12:51Z" finished-at="2017-01-14T04:13:33Z">
+      <class name="TestExecutionSuite.BasicFunctionalExecutionSuite">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="beforesuite" is-config="true" duration-ms="8" started-at="2017-01-14T09:42:51Z" finished-at="2017-01-14T09:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="setup" is-config="true" duration-ms="0" started-at="2017-01-14T09:42:51Z" finished-at="2017-01-14T09:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="driverInitalization(java.lang.String)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="driverInitalization" duration-ms="8233" started-at="2017-01-14T09:42:51Z" finished-at="2017-01-14T09:42:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitalization -->
+        <test-method status="PASS" signature="afterEveryMethod(org.testng.ITestResult)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="afterEveryMethod" is-config="true" duration-ms="2" started-at="2017-01-14T09:42:59Z" finished-at="2017-01-14T09:42:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=driverInitalization status=SUCCESS method=BasicFunctionalExecutionSuite.driverInitalization(java.lang.String)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method status="PASS" signature="openUrl()[pri:1, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="openUrl" duration-ms="4170" started-at="2017-01-14T09:42:59Z" finished-at="2017-01-14T09:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method status="PASS" signature="afterEveryMethod(org.testng.ITestResult)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="afterEveryMethod" is-config="true" duration-ms="0" started-at="2017-01-14T09:43:03Z" finished-at="2017-01-14T09:43:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openUrl status=SUCCESS method=BasicFunctionalExecutionSuite.openUrl()[pri:1, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method status="PASS" signature="enterJourneyDetails()[pri:2, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="enterJourneyDetails" duration-ms="4671" started-at="2017-01-14T09:43:03Z" finished-at="2017-01-14T09:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterJourneyDetails -->
+        <test-method status="PASS" signature="afterEveryMethod(org.testng.ITestResult)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="afterEveryMethod" is-config="true" duration-ms="0" started-at="2017-01-14T09:43:08Z" finished-at="2017-01-14T09:43:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterJourneyDetails status=SUCCESS method=BasicFunctionalExecutionSuite.enterJourneyDetails()[pri:2, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method status="PASS" signature="validateDetailsEntereInSearchPage()[pri:3, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="validateDetailsEntereInSearchPage" duration-ms="1034" started-at="2017-01-14T09:43:08Z" finished-at="2017-01-14T09:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDetailsEntereInSearchPage -->
+        <test-method status="PASS" signature="afterEveryMethod(org.testng.ITestResult)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="afterEveryMethod" is-config="true" duration-ms="1" started-at="2017-01-14T09:43:09Z" finished-at="2017-01-14T09:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateDetailsEntereInSearchPage status=SUCCESS method=BasicFunctionalExecutionSuite.validateDetailsEntereInSearchPage()[pri:3, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method status="PASS" signature="chooseFlight()[pri:4, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="chooseFlight" duration-ms="308" started-at="2017-01-14T09:43:09Z" finished-at="2017-01-14T09:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseFlight -->
+        <test-method status="PASS" signature="validateFlightsChosenInPaymentPage()[pri:5, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="validateFlightsChosenInPaymentPage" duration-ms="1596" started-at="2017-01-14T09:43:09Z" finished-at="2017-01-14T09:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFlightsChosenInPaymentPage -->
+        <test-method status="PASS" signature="afterEveryMethod(org.testng.ITestResult)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="afterEveryMethod" is-config="true" duration-ms="0" started-at="2017-01-14T09:43:09Z" finished-at="2017-01-14T09:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chooseFlight status=SUCCESS method=BasicFunctionalExecutionSuite.chooseFlight()[pri:4, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method status="PASS" signature="afterEveryMethod(org.testng.ITestResult)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="afterEveryMethod" is-config="true" duration-ms="1" started-at="2017-01-14T09:43:11Z" finished-at="2017-01-14T09:43:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFlightsChosenInPaymentPage status=SUCCESS method=BasicFunctionalExecutionSuite.validateFlightsChosenInPaymentPage()[pri:5, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method status="PASS" signature="selectInsurance()[pri:6, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="selectInsurance" duration-ms="949" started-at="2017-01-14T09:43:11Z" finished-at="2017-01-14T09:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectInsurance -->
+        <test-method status="PASS" signature="afterEveryMethod(org.testng.ITestResult)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="afterEveryMethod" is-config="true" duration-ms="0" started-at="2017-01-14T09:43:12Z" finished-at="2017-01-14T09:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectInsurance status=SUCCESS method=BasicFunctionalExecutionSuite.selectInsurance()[pri:6, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method status="PASS" signature="enterEmail()[pri:7, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="enterEmail" duration-ms="3092" started-at="2017-01-14T09:43:12Z" finished-at="2017-01-14T09:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmail -->
+        <test-method status="PASS" signature="enterPassengerDetails()[pri:8, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="enterPassengerDetails" duration-ms="3630" started-at="2017-01-14T09:43:15Z" finished-at="2017-01-14T09:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassengerDetails -->
+        <test-method status="PASS" signature="afterEveryMethod(org.testng.ITestResult)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="afterEveryMethod" is-config="true" duration-ms="0" started-at="2017-01-14T09:43:15Z" finished-at="2017-01-14T09:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterEmail status=SUCCESS method=BasicFunctionalExecutionSuite.enterEmail()[pri:7, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method status="PASS" signature="verifyPaymentPage()[pri:9, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="verifyPaymentPage" duration-ms="14634" started-at="2017-01-14T09:43:18Z" finished-at="2017-01-14T09:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentPage -->
+        <test-method status="PASS" signature="afterEveryMethod(org.testng.ITestResult)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="afterEveryMethod" is-config="true" duration-ms="0" started-at="2017-01-14T09:43:18Z" finished-at="2017-01-14T09:43:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enterPassengerDetails status=SUCCESS method=BasicFunctionalExecutionSuite.enterPassengerDetails()[pri:8, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method status="PASS" signature="afterEveryMethod(org.testng.ITestResult)[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="afterEveryMethod" is-config="true" duration-ms="0" started-at="2017-01-14T09:43:33Z" finished-at="2017-01-14T09:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPaymentPage status=SUCCESS method=BasicFunctionalExecutionSuite.verifyPaymentPage()[pri:9, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="teardown" is-config="true" duration-ms="25" started-at="2017-01-14T09:43:33Z" finished-at="2017-01-14T09:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:TestExecutionSuite.BasicFunctionalExecutionSuite@7946e1f4]" name="aftersuite" is-config="true" duration-ms="2774" started-at="2017-01-14T09:43:33Z" finished-at="2017-01-14T09:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- TestExecutionSuite.BasicFunctionalExecutionSuite -->
+    </test> <!-- Go-Jek Assignment Execution Suite Test -->
+  </suite> <!-- Go-Jek Assignment Execution Suite -->
+</testng-results>

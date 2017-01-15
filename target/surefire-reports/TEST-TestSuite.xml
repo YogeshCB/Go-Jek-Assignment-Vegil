@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="45.809" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="305.193" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_31\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\vtharmaraj\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8626392057917306872.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\vtharmaraj\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7655522411020994710.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_31\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.8.0_31/jre/bin/server;C:/Program Files/Java/jdk1.8.0_31/jre/bin;C:/Program Files/Java/jdk1.8.0_31/jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Lenovo\Password Manager\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\cURL\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_31\bin;C:\Program Files\Java\jdk1.8.0_31\bin;C:\Program Files (x86)\Nmap;C:\Program Files (x86)\Nmap;C:\Program Files (x86)\apache-maven-3.3.9\bin;C:\Ruby23-x64\bin;C:\windows\system32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,14 +60,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="driverInitalization" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="8.234"/>
-  <testcase name="openUrl" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="4.17"/>
-  <testcase name="enterJourneyDetails" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="4.673"/>
-  <testcase name="validateDetailsEntereInSearchPage" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="1.033"/>
-  <testcase name="chooseFlight" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="0.332"/>
-  <testcase name="validateFlightsChosenInPaymentPage" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="1.574"/>
-  <testcase name="selectInsurance" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="0.945"/>
-  <testcase name="enterEmail" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="3.091"/>
-  <testcase name="enterPassengerDetails" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="3.629"/>
-  <testcase name="verifyPaymentPage" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="14.631"/>
+  <testcase name="driverInitalization" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="14.218"/>
+  <testcase name="openUrl" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="256.101"/>
+  <testcase name="enterJourneyDetails" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="5.507"/>
+  <testcase name="validateDetailsEntereInSearchPage" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="1.223"/>
+  <testcase name="chooseFlight" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="0.389"/>
+  <testcase name="validateFlightsChosenInPaymentPage" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="2.246"/>
+  <testcase name="selectInsurance" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="0.457"/>
+  <testcase name="enterEmail" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="3.791"/>
+  <testcase name="enterPassengerDetails" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="4.046"/>
+  <testcase name="verifyPaymentPage" classname="TestExecutionSuite.BasicFunctionalExecutionSuite" time="11.67"/>
 </testsuite>

@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>ClearTripPractice</groupId>
-  <artifactId>Testt</artifactId>
+  <groupId>Go-Jek-Assignment-Automation</groupId>
+  <artifactId>Go-Jek-Assignment</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Testt</name>
+  <name>Go-Jek-Assignment-Automation</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -118,11 +118,6 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.6.0</version>
-				<!-- <configuration>
-					<compilerVersion>1.8</compilerVersion>
-					<source>1.6</source>
-					<target>1.6</target>
-				</configuration> -->
 			</plugin>
 
 			<plugin>

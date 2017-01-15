@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Go-Jek Assignment Execution Suite]">
+  <test name="Go-Jek Assignment Execution Suite Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestExecutionSuite.BasicFunctionalExecutionSuite">
+        <methods>
+          <include name="verifyPaymentPage"/>
+          <include name="aftersuite"/>
+          <include name="enterEmail"/>
+          <include name="beforesuite"/>
+          <include name="teardown"/>
+          <include name="afterEveryMethod"/>
+          <include name="enterPassengerDetails"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestExecutionSuite.BasicFunctionalExecutionSuite -->
+    </classes>
+  </test> <!-- Go-Jek Assignment Execution Suite Test(failed) -->
+</suite> <!-- Failed suite [Go-Jek Assignment Execution Suite] -->

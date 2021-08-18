@@ -22,6 +22,10 @@ public class DriverInitalization
 	{
 		cm = new CommMeths();
 	}
+
+	/*
+	To initialize firefox driver.
+	 */
 	
 	public WebDriver initalizeDriver(WebDriver driver, String browser)
 	{
@@ -30,7 +34,7 @@ public class DriverInitalization
 		{
 			Logs.startLog("Initialzing Driver");
 			Logs.addToReport("Execution starts now. Driver Initialization for ", info);
-			System.setProperty("webdriver.gecko.driver", "exes/geckodriver-v10.exe");
+			System.setProperty("webdriver.gecko.driver", "/Users/yogeshbhatt/Downloads/AIDASH-FE_TESTS/FE-TEST-SUITE/exes/geckodriver");
 			driver = new FirefoxDriver();
 			driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 			driver.manage().window().maximize();

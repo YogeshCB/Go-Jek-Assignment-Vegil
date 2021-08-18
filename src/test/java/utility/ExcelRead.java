@@ -21,7 +21,7 @@ public class ExcelRead
 	{
 		try
 		{
-			src =  new File("./Test-Input/Test-Input-Data.xlsx");
+			src =  new File("./Test-Input/testdat.xlsx");
 			
 			fis =  new FileInputStream(src);
 			

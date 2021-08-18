@@ -2,8 +2,12 @@ package TestCases;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.commons.io.FileUtils;
 
+import org.codehaus.plexus.util.CollectionUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +18,6 @@ import commonMethods.CommMeths;
 import commonMethods.Logs;
 
 public class CommonTestCases {
-	
 	WebDriver driver;
 	CommMeths commeths;
 	String info="INFO";
@@ -23,80 +26,90 @@ public class CommonTestCases {
 	SoftAssert assertion = new SoftAssert();
 	
 	DriverInitalization driverini;
-	OpenUrl openurl;
-	SearchFlights sf;
-	ChoosingFlightPage cfp;
-	ContinueBookingPage cbp;
+	OpenAidash OpenAidash;
+	Ai_dash_login_screen login;
+	Ai_Dash_Home_Page expandMUIScreen;
+	Ai_Dash_create_Tree_page createTree;
+	Ai_dash_create_tree_screen2 create_tree_screen2;
+
+
+
 	String filepath = "./Reports/Screenshots/";
-	
-	/*public CommonTestCases(String browser)
-	{
-		initalizeDriver(browser);
-	}*/
-	
+
+
+
 	public void initalizeDriver(String browser)
-	{
+    	{
+
 		driverini = new DriverInitalization();
 		driver = driverini.initalizeDriver(driver, browser);
-	}
-	
-	public void openUrl()
-	{
-		openurl = new OpenUrl(driver);
-	}
-	
-	public void enterJourneyDetails()
-	{
-		sf = new SearchFlights(driver);
-		sf.searchFlight();
-	}
-	
-	public void validateDetailsInSearchResultsPage()
-	{
-		cfp = new ChoosingFlightPage(driver);
-		cfp.validateEnteredjourneyDetailsInSearchFlightsPage();
-	}
-	
-	public void chooseFlight()
-	{
-		cfp.continuefirstfligt();
-	}
-	
-	public void verifyFlightsChosenOnSearchPage()
-	{
-		cbp = new ContinueBookingPage(driver);
-		cbp.validateJourneyDetailsOnBookingPage();
-	}
-	public void choseInsurance()
-	{
-		cbp.click_insurance();
-	}
-	public void enterEmailDetails()
-	{
-		cbp.enterEmail();
-	}
-	public void enterPassengerDetails()
-	{
-		cbp.enterPassengerDetails();
-	}
-	public void checkPaymentPage()
-	{
-		cbp.checkPaymentPageApperance();
-	}
-	
+    	}
+
+
+	public void OpenAidash()
+	   {
+
+		OpenAidash = new OpenAidash(driver);
+	   }
+
+	public void Ai_dash_login_screen()
+	    {
+
+		login= new Ai_dash_login_screen(driver);
+		login.enterEmail();
+		login.enterPassword();
+		login.clickLoginButton();
+	    }
+
+	public void Ai_Dash_Home_Page()
+	   {
+
+		expandMUIScreen= new Ai_Dash_Home_Page(driver);
+		expandMUIScreen.clickMUIButton();
+		expandMUIScreen.HazardTreeMUIButton();
+		expandMUIScreen.TreeRemovalButton();
+		expandMUIScreen.ReportTreeButton();
+	    }
+
+	public void Ai_Dash_create_Tree_page() throws InterruptedException
+	    {
+
+		createTree= new Ai_Dash_create_Tree_page(driver);
+		createTree.ClickOnNextButton();
+		createTree.SpeciesDropdownButton();
+		createTree.TreeConditionDropdownButton();
+		createTree.DistanceToLineButton();
+		createTree.TreeHeightDropdownButton();
+		createTree.DiameterAtBreastHeightButton();
+		createTree.RiskLevelButton();
+		createTree.Action();
+		createTree.NextButtonTreeCreateButton();
+	    }
+
+
+	public void Ai_dash_create_tree_screen2()
+	   {
+
+		create_tree_screen2= new Ai_dash_create_tree_screen2(driver);
+		create_tree_screen2.NearestCircuit();
+		create_tree_screen2.NoOfphases();
+		create_tree_screen2.SubmitButton();
+	   }
+
 	public void takeScreenShotOnFailure(String screenshotfilename)
-	{
+	   {
+
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE); 
-		try 
-		{
-			FileUtils.copyFile(scrFile, new File(filepath+screenshotfilename+".png"));
-			Logs.addScreenshot(filepath, " Screen shot captured for failed Test case ", "FAIL");
-		} 
-		catch (IOException e) 
-		{
-			e.printStackTrace();
-		}
-	}
+			try
+			{
+				FileUtils.copyFile(scrFile, new File(filepath+screenshotfilename+".png"));
+				Logs.addScreenshot(filepath, " Screen shot captured for failed Test case ", "FAIL");
+			}
+			catch (IOException e)
+			{
+				e.printStackTrace();
+			}
+	   }
 	
 	public void flushLogs()
 	{
@@ -105,13 +118,6 @@ public class CommonTestCases {
 	
 	public void closeDriver()
 	{
-		driver.get("./Reports/Report.html");
-		try {
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		driver.close();
 		driver.quit();
 		

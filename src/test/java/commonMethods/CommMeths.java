@@ -44,17 +44,14 @@ public class CommMeths
 		WebDriverWait wait = new WebDriverWait(driver, time);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
-	
+
 	public void elementvisibilityExplicitWait(WebDriver driver, WebElement element, int time)
 	{
 		WebDriverWait wait = new WebDriverWait(driver, time);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
-	
-	public void addToHmap(String key, String value)
-	{
-		hmapjourneydetails.put(key, value);
-	}
-	
+
+
+
 
 }
